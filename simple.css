@@ -1,0 +1,73 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main Container */
+.container {
+    background: #ffffff;
+    padding: 30px;
+    width: 400px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading */
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Input Field */
+input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #4CAF50;
+}
+
+/* Buttons */
+button {
+    padding: 12px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+/* Message Area */
+#message {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #444;
+}
